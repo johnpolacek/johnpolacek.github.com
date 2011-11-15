@@ -100,11 +100,17 @@ a:hover {
     font-size: 14px;
 }
 
+footer {
+    padding: 10px 0;
+    margin: 0 -40px;
+}
+
 footer a, footer a:visited {
-    color: #ccc;
+    color: #bbb;
     font-size: 45px;
     font-style: italic;
     line-height: 1.6;
+    padding: 30px;
 }
 
 footer a:hover {
