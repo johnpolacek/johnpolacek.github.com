@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'GoodDogRegular';
+	src: url('../font/GoodDog-webfont.eot?') format('eot'), 
+	     url('../font/GoodDog-webfont.woff') format('woff'), 
+	     url('../font/GoodDog-webfont.ttf')  format('truetype'),
+	     url('../font/GoodDog-webfont.svg#svgFontName') format('svg');
+}
+
+body {
+    background-color: #eee;
+    background-image: url('../img/grunge_wall.png');
+    color: #333;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px 50px;
+    font-family: Georgia, serif;
+	font-size: 15px;
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'GoodDogRegular', Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    color: #666;
+    font-size: 45px;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+    font-family: 'GoodDogRegular', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    color: #999;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5px;
+}
+
+section {
+    padding: 40px 20px 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 5px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+a, a:visited {
+    text-decoration: underline;
+	font-style: italic;
+    color: #666;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #444;
+}
+
+.intro {
+    font-style: italic;
+    font-size: 20px;
+    padding: 0;
+}
+
+.collection h1 {
+    font-size: 28px;
+    padding: 20px 0 0;
+    color: #999;
+}
+
+.collection h2 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.repo {
+    padding-bottom: 30px;
+}
+
+.repo-link {
+    font-size: 14px;
+}
+
+footer a, footer a:visited {
+    color: #ccc;
+    font-size: 45px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+footer a:hover {
+    color: #aaa;
+}
