@@ -75,6 +75,10 @@ a:hover {
     color: #444;
 }
 
+section {
+    padding: 0 2%;
+}
+
 .collection h1 {
     font-size: 40px;
     padding: 20px 0 0;
@@ -87,7 +91,7 @@ a:hover {
 }
 
 .repo {
-    padding-bottom: 30px;
+    padding: 30px;
 }
 
 .repo-link {
