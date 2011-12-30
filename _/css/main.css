@@ -25,18 +25,18 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     font-family: 'GoodDogRegular', Helvetica, sans-serif;
     font-weight: normal;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 header h1 {
     color: #666;
-    font-size: 45px;
+    font-size: 80px;
     text-transform: lowercase;
     margin: 0;
     padding: 0;
@@ -53,14 +53,10 @@ header h2 {
     padding: 5px;
 }
 
-section {
-    padding: 40px 20px 20px;
-}
-
 p {
     margin: 0;
     padding: 0 0 5px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.3;
 }
 
@@ -79,20 +75,14 @@ a:hover {
     color: #444;
 }
 
-.intro {
-    font-style: italic;
-    font-size: 20px;
-    padding: 0;
-}
-
 .collection h1 {
-    font-size: 28px;
+    font-size: 40px;
     padding: 20px 0 0;
     color: #999;
 }
 
 .collection h2 {
-    font-size: 15px;
+    font-size: 24px;
     margin: 0;
 }
 
@@ -101,7 +91,7 @@ a:hover {
 }
 
 .repo-link {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 footer {
