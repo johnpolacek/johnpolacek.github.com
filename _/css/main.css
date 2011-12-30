@@ -53,6 +53,23 @@ header h2 {
     padding: 5px;
 }
 
+.links {
+    padding: 10px 0;
+    margin: 0 -30px;
+}
+
+.links a, .links a:visited {
+    color: #bbb;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.links a:hover {
+    color: #aaa;
+}
+
 p {
     margin: 0;
     padding: 0 0 5px;
@@ -96,21 +113,4 @@ section {
 
 .repo-link {
     font-size: 15px;
-}
-
-footer {
-    padding: 10px 0;
-    margin: 0 -30px;
-}
-
-footer a, footer a:visited {
-    color: #bbb;
-    font-size: 36px;
-    font-style: italic;
-    line-height: 1.6;
-    padding: 20px;
-}
-
-footer a:hover {
-    color: #aaa;
 }
