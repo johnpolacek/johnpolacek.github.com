@@ -29,6 +29,17 @@ h2 { font-size:2em; margin: 0 0 10px; font-weight:normal; font-family: 'Courgett
 h3 { font-size:1.4em; margin: 0 0 10px; font-weight:normal; font-family: 'Courgette', cursive; }
 h4, p { margin:0;padding: 0;}
 .repo { margin: 20px 0 40px; }
+.repo-image {
+  border: 1px solid #DDD;
+  padding: 6px;
+  background: #eee;
+}
+.repo-link {
+  font-weight:bold;
+  display: block;
+  padding: 5px;
+  color: #999;
+}
 
 
 
