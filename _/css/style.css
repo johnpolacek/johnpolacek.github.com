@@ -14,20 +14,23 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     PRIMARY STYLES
     ========================================================================== */
 
-body { text-align: center; line-height: 1.4; font-size:16px; color: #222; font-family: Georgia, serif;}
+body { background:#f6f6f6; text-align: center; line-height: 1.4; font-size:16px; color: #222; font-family: 'PT Sans', Georgia, sans-serif;}
 
 a, a:visited { color:#333; cursor: pointer; font-style:italic; }
 a:hover { color:#000; }
 a:focus, a:hover, a:active { outline:0; }
 
-.wrapper { padding:20px 50px 80px; width:900px; margin:0 auto; background:#fff; }
+.wrapper { padding:20px 50px 80px; width:900px; margin:0 auto; }
 
 header { margin:0; padding-bottom: 40px; text-align:center; border-bottom:solid 8px #eee;}
+header h2 { margin-bottom: 20px; }
 section {border-bottom:solid 8px #eee; padding-top: 40px;}
-h1 {font-size:4em; margin: 0 0 10px; font-weight:normal; font-family: 'Courgette', cursive; }
-h2 { font-size:2em; margin: 0 0 10px; font-weight:normal; font-family: 'Courgette', cursive; }
-h3 { font-size:1.4em; margin: 0 0 10px; font-weight:normal; font-family: 'Courgette', cursive; }
-h4, p { margin:0;padding: 0;}
+h1,h2,h3,h4,h5,h6 { font-weight: normal; font-family: 'Patua One', sans-serif; }
+h1 { font-size: 5em; margin: 0;  line-height: 1; }
+h2 { font-size:2.4em; margin: 0; color: #aaa; }
+h3 { font-size:2em; margin: 0 0 10px; }
+h4 { font-size:1.4em; color: #aaa; }
+h4, p { margin:0; padding: 0;}
 .repo { margin: 20px 0 40px; }
 .repo-image {
   border: 1px solid #DDD;
