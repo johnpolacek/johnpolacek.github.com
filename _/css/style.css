@@ -23,11 +23,12 @@ a:focus, a:hover, a:active { outline:0; }
 .wrapper { padding:20px 50px 80px; width:900px; margin:0 auto; }
 
 header { margin:0; padding-bottom: 40px; text-align:center; border-bottom:solid 8px #eee;}
-header h2 { margin-bottom: 20px; }
+header h2 { margin: 20px auto; font-size:1.4em; }
+header h2 a, header h2 a:visited { color: #777; font-style: normal; }
 section {border-bottom:solid 8px #eee; padding-top: 40px;}
 h1,h2,h3,h4,h5,h6 { font-weight: normal; font-family: 'Patua One', sans-serif; }
 h1 { font-size: 5em; margin: 0;  line-height: 1; }
-h2 { font-size:2.4em; margin: 0; color: #aaa; }
+h2 { font-size:2.4em; margin: 0; color: #999; }
 h3 { font-size:2em; margin: 0 0 10px; }
 h4 { font-size:1.4em; color: #aaa; }
 h4, p { margin:0; padding: 0;}
